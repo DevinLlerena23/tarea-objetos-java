@@ -4,10 +4,10 @@ console.log("Separando los datos en un archivo")
 console.log(ciudades)
 
 //2.listar las personas de sexo femenino
-/*
+
 const arrasexo =data.filter(info=>info.sexo=="F");
 console.log("listado de personas de sexo femenino",arrasexo)
-*/
+
 //3 Listado de ciudades con temperatura mayor a 25 grados
 const arraytemp=ciudades.filter(ciu=>ciu.temp>25)
 console.log(arraytemp)
